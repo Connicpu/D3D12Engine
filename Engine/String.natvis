@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+    <Type Name="String">
+        <DisplayString Condition="owned == true">{data.owned_str}</DisplayString>
+        <DisplayString>{data.referenced.str}</DisplayString>
+        <Expand>
+            <Item Name="owned">owned</Item>
+            <Item Name="length" Condition="owned == true">data.owned_str._Mypair._Myval2._Mysize</Item>
+            <Item Name="length" Condition="owned == false">data.referenced.len</Item>
+        </Expand>
+    </Type>
+</AutoVisualizer>

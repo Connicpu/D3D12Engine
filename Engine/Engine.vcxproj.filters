@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{d2f26422-c902-44ca-a565-1e8c0af930a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{6f74503e-9668-4440-9999-c57b2b95ad37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer">
+      <UniqueIdentifier>{c9ee2b2f-ef9d-4afd-ada6-ade50975af2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Common\Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Graphics\Engine">
+      <UniqueIdentifier>{0cd4620d-054a-4df6-9bcf-86daf4f9f249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Engine\Headers">
+      <UniqueIdentifier>{4b953cc2-3c83-4449-abd3-4c782e6f8d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Engine\Source">
+      <UniqueIdentifier>{a00520b7-1eff-4c48-b3fc-f2aae9c49199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer\Headers">
+      <UniqueIdentifier>{76ab038a-3fa1-4746-9071-eb5403832506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Renderer\Source">
+      <UniqueIdentifier>{d7c3ace4-072e-4244-84e7-d33923c2aebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{1d3c0440-b4b4-48f0-98cf-a24047b002e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Headers">
+      <UniqueIdentifier>{de4c0849-1c94-4330-b2cb-99d7c54bef5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{ab4e17c9-8ca0-45f1-b832-4e7118f59b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Debugging">
+      <UniqueIdentifier>{005c649d-71b5-4a42-966d-9d0acb752d77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Graphics\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDevice.h">
+      <Filter>Graphics\Renderer\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemAPIs.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Reflection.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Filesystem.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.cpp">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Initialization.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>Common\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="String.natvis">
+      <Filter>Common\Debugging</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>
